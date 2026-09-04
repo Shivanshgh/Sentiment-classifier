@@ -26,26 +26,6 @@ A Python-based machine learning project for classifying text into categories suc
 - **TF-IDF**
 - **Logistic Regression**
 
-## 🔄 Machine Learning Pipeline
-
-```text
-Raw Text
-   ↓
-Text Cleaning
-   ↓
-Tokenization
-   ↓
-Stop-word Removal
-   ↓
-Lemmatization
-   ↓
-TF-IDF Vectorization
-   ↓
-Logistic Regression
-   ↓
-Text Classification
-```
-
 ## 📌 How It Works
 
 The project first preprocesses the input text by converting it to lowercase, removing URLs and special characters, tokenizing the text, removing English stop words, and applying lemmatization.
@@ -104,17 +84,6 @@ The program will:
 
 The model predicts the category for each input and displays the result.
 
-## 📂 Project Structure
-
-```text
-Sentiment-Classifier/
-│
-├── text_classification.py
-├── text_classifier.pkl
-├── README.md
-└── requirements.txt
-```
-
 ## 📈 Model
 
 The project uses:
@@ -142,9 +111,3 @@ Uses the extracted TF-IDF features to classify text into different categories.
 ## 👨‍💻 Author
 
 **Shivansh Ghildiyal**
-
-BTech Student | Electronics & Communication Engineering
-
----
-
-⭐ If you found this project useful, consider giving the repository a star.
